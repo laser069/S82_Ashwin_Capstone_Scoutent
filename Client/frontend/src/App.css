@@ -1,0 +1,21 @@
+/* App.css - Clean Slate for Full Width Layouts */
+:root {
+  --primary-color: #CEFF00; /* Volt Green */
+  --bg-color: #000000;
+  --text-color: #ffffff;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  overflow-x: hidden; /* Prevent horizontal scroll */
+  font-family: 'Inter', sans-serif; /* Assuming Inter is available or fallback */
+}
+
+/* Ensure full height */
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}

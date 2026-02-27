@@ -5,7 +5,21 @@ meta {
 }
 
 get {
-  url: http://localhost500/api/
-  body: none
+  url: http://localhost:5000/api/user/profile
+  body: json
   auth: inherit
+}
+
+headers {
+  Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MjM1NTMyMGNmNmQ4Zjk3NWMwNmRkYiIsInJvbGUiOiJzY291dCIsImlhdCI6MTc0NzE0NjA3MCwiZXhwIjoxNzQ3MTQ5NjcwfQ.6dFUh8w4rQUzlm4Mxq_qaPPB66asFqR7DIZJmuw7W8w
+}
+
+body:json {
+  {
+    
+    "email":"akam24@gmail.com",
+    "password":"akRaam132"
+    
+    
+  }
 }

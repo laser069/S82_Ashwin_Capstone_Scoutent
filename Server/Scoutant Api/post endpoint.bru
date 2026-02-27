@@ -1,0 +1,21 @@
+meta {
+  name: post endpoint
+  type: http
+  seq: 5
+}
+
+post {
+  url: http://localhost/5000/api/auth/register
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "name":"faizal",
+    "email":"poier321@gmail.com",
+    "password":"user213",
+    "role":"player"
+    
+  }
+}

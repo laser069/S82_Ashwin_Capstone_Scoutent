@@ -1,0 +1,25 @@
+meta {
+  name: Put endpoint
+  type: http
+  seq: 6
+}
+
+put {
+  url: http://localhost:5000/api/auth/password
+  body: json
+  auth: none
+}
+
+headers {
+  content-type: application/json
+}
+
+body:json {
+  {
+    
+    "id": "6825b86ec554062dfff4478a",
+    "currentPassword":"1234",
+    "newPassword":"ryt1"
+    
+  }
+}
